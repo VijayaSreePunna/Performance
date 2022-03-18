@@ -1,0 +1,37 @@
+<lg-host citrixSupport="false" hostname="localhost:7100" loadWeight="1"
+    sapSupport="false" standalone="false" supportWANEmulation="false"
+    uid="b880d030-a172-4ed2-bdb1-5279d60abfea" version="7.10.0;build=20210611-55">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface
+        description="Realtek 8822BE Wireless LAN 802.11ac PCI-E NIC"
+        enabled="false" isLoopBack="false" name="wlan0">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="192.168.0.9">
+            <ip value="192.168.0.9"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:d948:e6db:81d4:cf4c%wlan0">
+            <ip value="fe80:0:0:0:d948:e6db:81d4:cf4c%wlan0"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="127.0.0.1">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Bluetooth Device (Personal Area Network)"
+        enabled="false" isLoopBack="false" name="eth2">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:6159:6d14:2aad:1f08%eth2">
+            <ip value="fe80:0:0:0:6159:6d14:2aad:1f08%eth2"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</lg-host>

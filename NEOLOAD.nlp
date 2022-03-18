@@ -1,0 +1,13 @@
+# Project description file
+
+project.name=NEOLOAD
+project.version=8.3
+project.original.version=8.3
+product.name=NeoLoad
+product.original.name=NeoLoad
+product.original.version=7.10.0
+project.id=36d1025c-075f-478c-88be-16793a7348ac
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=/VijayaSreePunna/Performance

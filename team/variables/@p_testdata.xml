@@ -1,0 +1,6 @@
+<variable-file delimiters="," filename="C:/Users/Chinni/Desktop/1.txt" name="P_testdata" offset="1" order="3" policy="5" range="1" uid="8b9d599a-5bd0-4340-a424-1304c184b071" useFirstLine="true" whenOutOfValues="CYCLE_VALUES">
+<column name="city" number="2"/>
+<column name="password" number="1"/>
+<column name="username" number="0"/>
+<column name="zip" number="3"/>
+</variable-file>

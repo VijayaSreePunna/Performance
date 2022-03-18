@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="contoune" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="e9eead46-fffd-4332-af54-dc8b94ea31d8" weightsEnabled="false">
+    <weighted-embedded-action uid="3fb79839-a977-4be2-a4b2-7c52fe975443"/>
+</basic-logical-action-container>

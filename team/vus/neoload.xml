@@ -1,0 +1,35 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
+    type="LEGACY" uid="neoload">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="d234850b-c818-4190-99be-97590a1d0a1f"/>
+        <weighted-embedded-action uid="db288244-8794-4eb9-ad51-9a405a5c4ccd"/>
+        <weighted-embedded-action uid="7ca9aced-90da-45f3-a139-a06ca95cbb72"/>
+        <weighted-embedded-action uid="63500e03-7737-42bb-9883-a04a445ee749"/>
+        <weighted-embedded-action uid="d80d6e92-4e68-4858-9d3b-8bb62434ee6c"/>
+        <weighted-embedded-action uid="42e30dc2-3c27-4330-87ce-fae7c545912c"/>
+        <weighted-embedded-action uid="a9bbd53b-d6eb-4d26-8695-8c994f5c9fca"/>
+        <weighted-embedded-action uid="814fadb5-dff0-4e17-9e4f-05b8c0e0d3c9"/>
+        <weighted-embedded-action uid="335ddaf9-325c-4362-8c3b-dbf2439a3095"/>
+        <weighted-embedded-action uid="e9eead46-fffd-4332-af54-dc8b94ea31d8"/>
+        <weighted-embedded-action uid="f5a797e5-e893-4714-9db8-ab24461ef3dc"/>
+        <weighted-embedded-action uid="9ea5d305-e58b-4cb7-8700-a235afe214bb"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

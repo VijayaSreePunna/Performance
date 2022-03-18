@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="angle fish" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="a9bbd53b-d6eb-4d26-8695-8c994f5c9fca" weightsEnabled="false">
+    <weighted-embedded-action uid="815a36b5-c9dd-45a7-9ed9-d809bfdcc8b5"/>
+</basic-logical-action-container>
